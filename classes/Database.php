@@ -37,13 +37,13 @@ class Database {
 	public function statusMessage() {
 		return $this->status ? 'Successful' : $this->e;
 	}
-	
+
 	/*
 	// NOTE: MAKE __construct private
 	public static function getConn(){
-		if(!$conn)
-			$conn = new Database;
-		return $conn;
+		if(!$this->conn)
+			$this->conn = new Database;
+		return $this->conn;
 	}
 	*/
 
